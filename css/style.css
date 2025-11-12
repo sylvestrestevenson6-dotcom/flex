@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: chartreuse;
+    border: 10px solid yellow;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.box {
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    border: 3px red double;
+}
+
+.header-text {
+    background-color: rgb(93, 91, 243);
+    border: 3px red double;
+    font-weight: bold;
+    font-size: 1.85em
+}
+
+.header-number {
+    background-color: rgb(14, 193, 248);
+    border: 3px red double;
+    font-weight: bold;
+    width: 23%;
+    height: 126px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    border: 10px greenyellow solid;
+    margin-bottom: 25px;
+    justify-content: space-around;
+    padding: 10px;
+  
+    
+
+
+}
+
+.main-box {
+    width: 45%;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid rgb(74, 216, 8);
+}
+
+.main1 {
+    background-color: rgb(240, 24, 24);
+    border-style: dashed;
+}
+
+.main2 {
+    background-color: rgb(236, 116, 4);
+    border-style: double;
+}
